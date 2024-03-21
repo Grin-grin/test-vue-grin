@@ -1,7 +1,7 @@
 const { defineConfig } = require("@vue/cli-service");
 
 module.exports = defineConfig({
-  publicPath: '/test-vue-grin.github.io/',
+  publicPath: '/',
   transpileDependencies: true,
   css: {
     loaderOptions: {
