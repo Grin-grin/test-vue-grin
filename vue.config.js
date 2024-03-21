@@ -1,7 +1,7 @@
 const { defineConfig } = require("@vue/cli-service");
 
 module.exports = defineConfig({
-  publicPath: '/' + process.env.CI_PROJECT_NAME + '/',
+  publicPath: '/',
   transpileDependencies: true,
   css: {
     loaderOptions: {
